@@ -9,11 +9,7 @@ RUN ls
 RUN apt-get install unrar
 RUN unrar x zz.rar -pc2ptech
 RUN chmod +x /usr/local/bin/extract && chmod +x /usr/local/bin/pextract
-
-
-COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
-
 COPY . .
 COPY .netrc /root/.netrc
 RUN chmod 600 /usr/src/app/.netrc

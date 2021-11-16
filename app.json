@@ -5,7 +5,7 @@
   "stack": "container",
   "env": {
     "Config file url": {
-    "description": "The telegram bot token that you get from @BotFather.",
+    "description": "I will provide",
      "required": true
       },
   "addons": []

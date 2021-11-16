@@ -3,5 +3,10 @@
   "description": "Just test",
   "repository": "https://github.com/aashath0317/Mmm",
   "stack": "container",
+  "env": {
+    "Config file url": {
+    "description": "The telegram bot token that you get from @BotFather.",
+     "required": true
+      },
   "addons": []
 }

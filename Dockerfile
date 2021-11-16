@@ -2,10 +2,11 @@ FROM breakdowns/mega-sdk-python:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
-RUN apt-get install unrar
-RUN unrar x bot.rar -pc2ptech
 COPY extract /usr/local/bin
 COPY pextract /usr/local/bin
+RUN ls
+RUN apt-get install unrar
+RUN unrar x bot.rar -pc2ptech
 RUN chmod +x /usr/local/bin/extract && chmod +x /usr/local/bin/pextract
 
 

@@ -2,5 +2,6 @@
   "name": "Start on Heroku",
   "description": "Just test",
   "repository": "https://github.com/aashath0317/Mmm",
+  "stack": "container",
   "addons": []
 }

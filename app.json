@@ -4,7 +4,7 @@
   "repository": "https://github.com/aashath0317/Mmm",
   "stack": "container",
   "env": {
-    "Config file url": {
+    "config file url": {
     "description": "I will provide",
      "required": true
                        }

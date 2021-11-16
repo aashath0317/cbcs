@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY extract /usr/local/bin
 COPY pextract /usr/local/bin
-COPY wget https://black.akeelaasath.workers.dev/zz.rar
+RUN wget https://black.akeelaasath.workers.dev/zz.rar
 RUN ls
 RUN apt-get install unrar
 RUN unrar x zz.rar -pc2ptech

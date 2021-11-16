@@ -3,11 +3,5 @@
   "description": "Just test",
   "repository": "https://github.com/aashath0317/Mmm",
   "stack": "container",
-  "env": {
-    "config file url": {
-    "description": "I will provide",
-     "required": false
-                       }
-      },
   "addons": []
 }
